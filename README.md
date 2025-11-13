@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# react-native-design-challenge
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This was given to build react native app **user interface** of a given design sort of rebuild the design using code, this task include using **reusable components**, **stylesheet**, and **basic react native concepts and components**.
 
-## Get started
+## Preview
+![UI](https://github.com/user-attachments/assets/9412fa46-95c9-4764-9565-cdb5c28edd44)
+![UI](https://github.com/user-attachments/assets/c40b8d22-d33f-4f09-87e4-8905f37c20e4)
 
-1. Install dependencies
+# Features
+
+- Component-based architecture (Navbar, Button, ProductCard, etc.)
+- Custom typography using **Familjen Grotesk**
+- Local assets integration (images, fonts)
+- Splash screen handling with `expo-splash-screen`
+- Cart button with badge count
+- Built with **TypeScript** for better type safety
+
+## Tech Stack
+
+- **React Native** (Expo)
+- **TypeScript**
+- **Expo Router**
+- **Expo Vector Icons**
+- **Expo Font & Splash Screen**
+
+## ⚙️ Installation
+
+1. Clone the repository:
 
    ```bash
+   git clone https://github.com/Karabo2002dev/react-native-design-challange.git
+   cd react-native-design-challange
+   ```
+2. Install dependecies:
+   ```bash
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+### Running the App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- On Mobile:
+   - Scan the QR code in your terminal or browser using the Expo Go app.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- On Emulator:
+   - iOS: Press i in terminal
+   - Android: Press a in terminal
 
-## Get a fresh project
+## Reusable Components
 
-When you're ready, run:
+- Navbar → Contains back, profile, and cart buttons with dynamic count badge.
+- IconButton → Reusable pressable icon component for consistent styling.
+- CTAButton → Standard rounded “Buy Now” button with custom props.
+- Counter → Used for increment/decrement quantity of items.
 
-```bash
-npm run reset-project
-```
+## Downloadable APK file link
+- [APP](https://drive.google.com/file/d/1se6v73e1bfkLLkGdpjzRAPOOq8x9T5Ud/view?usp=sharing)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
