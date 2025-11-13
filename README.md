@@ -30,6 +30,7 @@ This was given to build react native app **user interface** of a given design so
    ```bash
    git clone https://github.com/Karabo2002dev/react-native-design-challange.git
    cd react-native-design-challange
+   code .
    ```
 2. Install dependecies:
    ```bash
